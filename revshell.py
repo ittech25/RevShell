@@ -177,7 +177,7 @@ if connection == 0:
 
         if len(data) > 0:
             sh = subprocess.Popen(datad, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE, stdin = subprocess.PIPE)
-            out = sh.stdout.read()
+            out = sh.stdout.read() + sh.stderr.read()
             if osys == 'Windows':
                 outstr = str(out, "windows-1252")
             else:
