@@ -1,0 +1,6 @@
+opencv-python
+pyscreenshot
+pillow
+sounddevice
+colorama
+scipy
