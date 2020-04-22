@@ -21,8 +21,8 @@ from scipy.io.wavfile import write
 def id_gen(size=7, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for c in range(size))
 
-host = '192.168.1.47' # CHANGE THIS
-port = 4747           # CHANGE THIS
+host = '127.0.0.1' # CHANGE THIS
+port = 1234        # CHANGE THIS
 connection = 0
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
