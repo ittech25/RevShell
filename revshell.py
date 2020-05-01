@@ -71,7 +71,7 @@ if connection == 0:
                               '\n[*] webcam_snap - To take a webcam screenshot'\
                               '\n[*] rec_mic - To rec a microphone'\
                               '\n[*] download - To download a file'\
-                              '\n[+] upload - To upload a file'\
+                              '\n[*] upload - To upload a file'\
                               '\n[*] Press ENTER to continue'))
             continue
         if datad.strip() == 'exit':
